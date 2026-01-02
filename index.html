@@ -84,7 +84,9 @@
         html,body 
         {
             overflow-x: hidden;
+            scroll-behavior: smooth;
         }
+        
     </style>
 </head>
 <body >
@@ -480,12 +482,13 @@
     </div>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script type="text/javascript">
-        $('.js-scroll-trigger').click(function () {
+        $('.js-scroll-trigger,body').click(function () {
             $('.navbar-collapse').collapse('hide');
         });
     </script>
 </body>
 
 </html>
+
 
 
